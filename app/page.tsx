@@ -74,7 +74,7 @@ export default function Home() {
             transition={{ duration: 0.5 }}
           >
             <h1 className="text-4xl md:text-6xl font-bold mb-4">
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-indigo-600">
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-indigo-600" style={{ WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
                 Wallpaper Haven
               </span>
             </h1>
